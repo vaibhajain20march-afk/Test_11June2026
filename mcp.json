@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "python",
+      "args": ["c:/Users/Admin/Documents/GitHub_MCP/server.py"],
+      "env": {}
+    }
+  }
+}

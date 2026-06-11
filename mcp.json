@@ -2,8 +2,13 @@
   "mcpServers": {
     "github": {
       "command": "python",
-      "args": ["c:/Users/Admin/Documents/GitHub_MCP/server.py"],
-      "env": {}
+      "args": [
+        "c:/Users/Admin/Documents/GitHub_MCP/server.py"
+      ],
+      "env": {
+        "GITHUB_TOKEN": "env:GITHUB_TOKEN"
+      },
+      "description": "GitHub MCP server - exposes repo, issues, PRs, commits, file contents tools"
     }
   }
 }
